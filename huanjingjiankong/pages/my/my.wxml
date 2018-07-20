@@ -1,0 +1,9 @@
+<view>
+<button bindtap='huiyuan'>开通会员</button>
+
+<!-- index.wxml -->
+<map id="map" longitude="113.9351749420" latitude="35.3286411161" scale="14" markers="{{markers}}" 
+style="width: 100%; height:500px;">
+
+</map>
+</view>

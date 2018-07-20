@@ -1,0 +1,43 @@
+<image src="../../static/images/71.png" class="bg"></image>
+<view class="container">
+  <view class="nowWeather">
+    <view class="city w">{{weatherData.currentCity}}</view>
+    <text class="w b center f10">\n</text>
+    <view class="temp w b">{{weatherData.date}}</view>
+     <text class="w b center f10">\n</text>
+    <view class="weather w">{{weatherData.weatherDesc}} </view>
+  </view>
+ 
+  <view class="weahterDetail">
+    <view class="">
+     <view class="w center">风 力</view>
+      <text class="kongxi">\n</text>
+      <view class="w b center f25">{{weatherData.wind}}</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="w center">PM 2.5</view>
+      <text class="kongxi">\n</text>
+      <view class="w b center f25">{{weatherData.pm25}}</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="w center">今日温度</view>
+       <text class="kongxi">\n</text>
+      <view class="w b center f25">{{weatherData.temperature}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='bottom1'>
+	<view class='c'> \r\n明天：{{futureWeather[1].date}}   |{{futureWeather[1].temperature}}</view>
+		<view class='c'> \r\n{{futureWeather[1].weather}}   | {{futureWeather[1].wind}} </view>
+	</view>
+  <view class='bottom2'>
+		<view class='c'> \r\n{{futureWeather[2].date}}     | {{futureWeather[2].temperature}}</view>
+		<view class='c'>\r\n {{futureWeather[2].weather}}  | {{futureWeather[2].wind}}  </view>
+	</view>
+<view class='bottom3'>
+		<view class='c'> \r\n{{futureWeather[3].date}}      |    {{futureWeather[2].temperature}}</view>
+		<view class='c'> \r\n{{futureWeather[3].weather}}    |   {{futureWeather[2].wind}}  </view>
+	</view>

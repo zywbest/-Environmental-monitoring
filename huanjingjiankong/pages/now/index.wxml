@@ -1,0 +1,25 @@
+<ul class='riqi'>
+<li><button bindtap="butall" class='a'>全部</button></li>
+<li><button bindtap="butpass" class='a'>合格</button></li>
+<li><button bindtap="butnopass" class='a'>不合格</button></li>
+</ul>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">状态</view>
+    <view class="th">PM</view>
+    <view class="th ">噪音</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{key}}">
+    <view class="tr" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.key}}</view>
+      <view class="td">{{item.user}}</view>
+      <view class="td">{{item.name}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.key}}</view>
+      <view class="td">{{item.user}}</view>
+      <view class="td">{{item.name}}</view>
+    </view>
+  </block>
+</view>
+<text>{{ddd}}</text>
