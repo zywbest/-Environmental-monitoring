@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<image src="../../static/images/denglu.png" class="bg"></image>
+<view class="container">
+
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    用户名：
+    <input type="text" bindinput="userNameInput"/>
+    密码：
+    <input type="text" bindinput="userPasswordInput" password="true"/>
+   
+    <button bindtap="logIn">登陆</button>
+    <text class="tixing">{{tixing}}</text>
+  </view>
+</view>

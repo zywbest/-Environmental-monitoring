@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/denglu/index",
+    "pages/now/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/weather/weather",
+    "pages/pm/pm",
+    "pages/noise/noise"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "环境智能监测",
+    "navigationBarTextStyle": "#666"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "8a8a8a",
+    "selectedColor": "#1296db",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/now/index",
+        "iconPath": "static/images/ic01.png",
+        "selectedIconPath": "static/images/ic02.png",
+        "text": "实时"
+      },
+      {
+        "pagePath": "pages/pm/pm",
+        "iconPath": "static/images/ic11.png",
+        "selectedIconPath": "static/images/ic12.png",
+        "text": "扬尘"
+      },
+      {
+        "pagePath": "pages/noise/noise",
+        "iconPath": "static/images/ic21.png",
+        "selectedIconPath": "static/images/ic22.png",
+        "text": "噪声"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "iconPath": "static/images/ic31.png",
+        "selectedIconPath": "static/images/ic32.png",
+        "text": "天气"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/ic41.png",
+        "selectedIconPath": "static/images/ic42.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

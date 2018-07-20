@@ -1,0 +1,66 @@
+/**index.wxss**/
+ec-canvas {
+    
+  padding-top:0px;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  height: 280px;
+}
+#container{
+position: absolute;
+top: 35%;
+width:100%;
+height: 350px;
+}
+
+.input{
+  background-color: #17abe3;
+   color: #e6e6e6;
+  font-size: 18px;
+  text-align: center;
+  width: 30%;
+  float:left;
+}
+.row-wrap{
+  padding-left:2px;
+   margin-top: 10px;
+}
+.shishi{
+  padding-left:3px;
+  margin-top:20px;
+  color: #17abe3;
+  font-size: 25px;
+}
+.inputtext{
+  background-color: #17abe3;
+   color: #e6e6e6;
+   width: 69%;
+   float:right;
+  text-align: center;
+  font-size: 18px;
+}
+.riqi{
+position:absolute;
+right:10%;
+top: 35%;
+margin:0;
+list-style-type:none;
+}
+.a
+{
+height: 25px;
+font-size: 10px;
+float:left;
+width:30px;
+text-decoration:none;
+color:white;
+background-color:purple;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+.container{
+  margin: 0px;
+  padding: opx;
+  border: opx;
+}

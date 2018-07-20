@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="row-wrap">
+     <picker class='picker' bindchange="bindCasPickerChange" value="{{casIndex1}}" range="{{casArray}}">
+      <view class="input">选择地点</view>
+       <text class='inputtext'>{{casArray[casIndex]}}</text>
+     </picker>
+
+<text class='shishi' >\n\nPM2.5实时: 100ug\n\n\n\n</text>
+</view>
+<view>
+<ul class='riqi'>
+<li><button class='a'>日</button></li>
+<li><button class='a'>周</button></li>
+<li><button class='a'>月</button></li>
+</ul>
+</view>
+<view id="container">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ec}}"></ec-canvas>
+</view>
